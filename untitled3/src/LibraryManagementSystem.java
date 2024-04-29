@@ -9,7 +9,6 @@ public class LibraryManagementSystem {
 
     public static void main(String[] args) {
         LibraryManagementSystem librarySystem = new LibraryManagementSystem();
-        librarySystem.allCustomers.add(new Kunde(2,"","",true,0));
         librarySystem.runMainMenu();
     }
 
