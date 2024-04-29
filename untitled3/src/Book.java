@@ -4,15 +4,15 @@ public class Book {
 
     String isbn;
     String titel;
-    String autor;
-    String jahr;
+    String author;
+    String year;
 
     public ArrayList<BookCopy>copies=new ArrayList<>();
 
-    public Book(String isbn,String titel,String autor,String jahr){
+    public Book(String isbn,String titel,String author,String year){
         this.isbn=isbn;
         this.titel = titel;
-        this.autor=autor;
-        this.jahr=jahr;
+        this.author =author;
+        this.year =year;
     }
 }
