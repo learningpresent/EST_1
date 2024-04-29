@@ -1,4 +1,7 @@
 public class BookCopy {
 
-    //TODO
+    String Title, Author, ISBN, CheckoutDate, ShelfLocation;
+    int ID;
+    boolean CheckoutStatus;
+
 }
